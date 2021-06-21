@@ -1,0 +1,9 @@
+---
+- name: install Apache webserver
+  hosts: localhost
+
+  tasks:
+       - name: install Apache webserver
+         apt:
+          name: apache
+          State: latest
